@@ -1,0 +1,12 @@
+@use "global" as *;
+.content__inner {
+  display: flex; /* flexbox */
+  flex-wrap: wrap; /* 折返し指定 */
+  min-width: rem(375); // 親box
+  width: 100%;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

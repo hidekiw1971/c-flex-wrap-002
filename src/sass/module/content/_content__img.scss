@@ -1,0 +1,76 @@
+@use "global" as *;
+// 画像１枚目
+.content__img1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/content1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// 画像２枚目
+.content__img2 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/content2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// 画像３枚目
+.content__img3 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/content3@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// 画像４枚目
+.content__img4 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/content4@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
